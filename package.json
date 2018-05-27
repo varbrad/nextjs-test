@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "cross-env node server.js",
+    "build": "cross-env next build",
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/varbrad/nextjs-test#readme",
   "dependencies": {
+    "cross-env": "^5.1.6",
     "express": "^4.16.3",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^6.0.3",
