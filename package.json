@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "next"
+    "dev": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/varbrad/nextjs-test#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
