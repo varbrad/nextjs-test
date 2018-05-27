@@ -1,13 +1,8 @@
-import Link from "next/link";
+import Header from "../components/Header";
 
 const Index = () => (
   <div>
-    <Link href="/about">
-      <a style={{ fontSize: 32 }}>to About</a>
-    </Link>
-    <Link href="/about">
-      <button>Goto about</button>
-    </Link>
+    <Header />
     <p>Hello!</p>
   </div>
 );
