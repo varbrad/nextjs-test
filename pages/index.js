@@ -1,10 +1,9 @@
-import Header from "../components/Header";
+import Layout from "../layouts/default";
 
 const Index = () => (
-  <div>
-    <Header />
+  <Layout>
     <p>Hello!</p>
-  </div>
+  </Layout>
 );
 
 export default Index;

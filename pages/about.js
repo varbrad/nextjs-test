@@ -1,10 +1,9 @@
-import Header from "../components/Header";
+import Layout from "../layouts/default";
 
-const About = () => (
-  <div>
-    <Header />
-    <p>About page!</p>
-  </div>
+const Index = () => (
+  <Layout>
+    <p>About page!!</p>
+  </Layout>
 );
 
-export default About;
+export default Index;
