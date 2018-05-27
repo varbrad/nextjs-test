@@ -23,6 +23,26 @@ const Index = props => (
         </li>
       );
     })}
+    <style jsx>
+      {`
+        h1,
+        a {
+          font-family: monospace;
+        }
+
+        ul {
+          padding: 0;
+        }
+
+        a {
+          color: red;
+        }
+
+        a:hover {
+          opacity: 0.6;
+        }
+      `}
+    </style>
   </Layout>
 );
 
